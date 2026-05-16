@@ -209,7 +209,7 @@ if(Stock == 0) {
 // greater than 33
 // less than 33
 let Marks = 35;
-if(Marks > 35) {
+if(Marks > 33) {
     console.log("greater")
 } else { 
     console.log("marks are less")
@@ -280,6 +280,231 @@ if (!cheatingDetected) {
     console.log("Can enter exam");
 } else {
     console.log("Entry denied");
+}
+
+// Q23. Delivery Eligibility
+// Food delivery available only if:
+// distance < 10 km
+// AND
+// restaurantOpen = true
+let distance = 8;
+let restaurantOpen = false;
+if(distance < 10 && restaurantOpen == true) {
+    console.log("Delievery available")
+} else {
+    console.log("Delievery not available")
+}
+
+// PART 6 — if Statement
+// Q24. ATM Withdrawal
+// If balance > withdrawal amount,
+// print:
+// "Withdrawal successful"
+let balance = 67000;
+let withdrawalamount = 45000;
+if(balance > withdrawalamount) {
+    console.log("withdrawal successful")
+} else {
+    console.log("not successful")
+}
+
+// Q25. Mobile Battery Warning
+// If battery < 20,
+// print:
+// "Low battery"
+let Mobilebattery = 40;
+if(Mobilebattery < 20) {
+    console.log("Low battery")
+} else {
+    console.log("Battery is full")
+}
+
+// Q26. Instagram Verification
+// If followers > 100000,
+// print:
+// "Eligible for verification"
+let followers = 250000;
+if(followers > 100000) {
+    console.log("Eligible for verification")
+} else {
+    console.log("not eligible")
+}
+
+// PART 7 — if-else Statement
+// Q27. Login Success or Fail
+// If password matches:
+// "Login successful"
+// Else:
+// "Wrong password"
+let password = "siddhika14";
+let passentered = "siddhika14"
+if(password == passentered) {
+    console.log("Login sucessful")
+} else {
+    console.log("Wrong password")
+}
+
+// Q28. Pass or Fail
+// If marks >= 33:
+// "Pass"
+// Else:
+// "Fail"
+let marksis = 35;
+if(marksis >= 33) {
+    console.log("Pass")
+} else {
+    console.log("Fail")
+}
+
+// Q29. Online Shopping Offer
+// If bill > 5000:
+// "Free delivery"
+// Else:
+// "Delivery charges applied"
+let bill = 7000;
+if(bill > 5000) {
+    console.log("Free delivery")
+} else {
+    console.log("Delivery charges applied")
+}
+
+// Q30. Traffic Signal
+// If signal is green:
+// "Go"
+// Else:
+// "Stop"
+let signal = "green";
+if(signal == "green") {
+    console.log("Go")
+} else {
+    console.log("Stop")
+}
+
+// PART 8 — else-if Statement
+// Q31. Grading System
+// Marks:
+// 90+ → A
+// 75+ → B
+// 50+ → C
+// below 50 → Fail
+let marksare = 88;
+if(marksare >= 90) {
+    console.log("A")
+} else if (marksare >= 75) {
+    console.log("B")
+} else if (marksare >= 50) {
+    console.log("C")
+} else {
+    console.log("Fail")
+}
+
+// Q32. Weather App
+// Temperature:
+// 40 → "Very Hot"
+// 30 → "Hot"
+// 20 → "Normal"
+// else → "Cold"
+let Temperature = 42;
+if(Temperature > 40) {
+    console.log("Very Hot")
+} else if (Temperature > 30) {
+    console.log("Hot")
+} else if (Temperature > 20) {
+    console.log("Normal")
+} else {
+    console.log("Cold")
+}
+
+// Q33. Salary Bonus System
+// salary > 100000 → 20% bonus
+// salary > 50000 → 10% bonus
+// else → 5% bonus
+let salaryis = 150000;
+if(salaryis > 100000) {
+    console.log("20% bonus")
+} else if (salaryis > 50000) {
+    console.log("10% bonus")
+} else {
+    console.log("5% bonus")
+}
+
+// // Q34. Movie Ticket Pricing
+// // Child → 100
+// // Adult → 200
+// // Senior citizen → 150
+let TicketPricing = 150;
+if(TicketPricing <= 150) {
+    console.log("Child")
+} else if (TicketPricing <= 150) {
+    console.log("Adult")
+} else (TicketPricing <= 200) 
+    console.log("Senior citizen")
+
+// Q35. Internet Speed Checker
+// 100 Mbps → Fast
+// 50 Mbps → Medium
+// else → Slow
+let Internetspeed = 120;
+if(Internetspeed > 100) {
+    console.log("Fast")
+} else if (Internetspeed > 50) {
+    console.log("Medium")
+} else {
+    console.log("slow")
+}
+
+// PART 9 — Ternary Operator
+// Q36. Voting Eligibility
+// Use ternary:
+// age >= 18 ? "Can Vote" : "Cannot Vote"
+let votingage = 21;
+console.log(
+    votingage >= 18 ? "Can Vote" : "Cannot Vote"
+)
+
+// // Q37. Dark Mode Toggle
+// // If darkMode is true:
+// // "Dark Theme"
+// // Else:
+// // "Light Theme"
+let darkMode = true;
+console.log(
+    darkMode ? "Dark Theme" : "Light Theme"
+)
+
+// Q38. Online Payment
+// If amount > walletBalance:
+// "Insufficient Balance"
+// Else:
+// "Payment Successful"
+let amount = 4500;
+let walletBalance = 2100;
+if(amount > walletBalance) {
+    console.log("Insufficient Balance")
+} else {
+    console.log("Payment Succesful")
+}
+
+// // Q39. Subscription Check
+// // If subscribed:
+// // "Premium Access"
+// // Else:
+// // "Basic Access"
+let SubscriptionCheck = true;
+console.log(
+    SubscriptionCheck ? "Premium Access" : "Basic Access"
+)
+
+// Q40. Exam Result
+// If marks >= 33:
+// "Pass"
+// Else:
+// "Fail"
+let ExamResult = 35;
+if(ExamResult >= 33) {
+    console.log("pass")
+} else {
+    console.log("Fail")
 }
 
 
